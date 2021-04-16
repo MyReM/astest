@@ -1,0 +1,63 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "盲盒獎多多",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/index/mine",
+			"style": {
+				"navigationBarTitleText": "我的獎品",
+				"enablePullDownRefresh": false,
+				"app-plus": {},
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/index/prize-detail",
+			"style": {
+				"navigationBarTitleText": "獎品詳情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/index/scratchTicket",
+			"style": {
+				"navigationBarTitleText": "刮刮樂",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/merchange/merchant-change",
+			"style": {
+				"navigationBarTitleText": "甄選商家",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/merchange/shop-list/shop-list",
+			"style": {
+				"navigationBarTitleText": "獎品詳情",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
